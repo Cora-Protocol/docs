@@ -36,7 +36,6 @@
 ## SECURITY
 
 * [Audits](security/audits.md)
-* [Bug Bounty program](security/bug-bounty-program.md)
 
 ## RESOURCES
 
