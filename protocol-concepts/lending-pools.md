@@ -1,18 +1,18 @@
-# Liquidity Pools
+# Lending Pools
 
 #### Introduction
 
-Liquidity pools in Cora are single asset Pools of **Stablecoins**, where users deposit any of the supported Stablecoin **** token in exchange of a Cora LP token that represents the share of the pool.
+Lending pools in Cora are single asset pools of **stablecoins**, where users or **Liquidity Providers** deposit any of the supported stablecoin **** tokens in exchange of a Cora LP token that represents the share of the pool.
 
-Liquidity Pools serve as a source of liquidity for loans. Borrowers will lock their collateral in exchange for a stablecoin token that will be taken from the Liquidity Pool reserves.
+Lending Pools serve as a source of liquidity for loans. Borrowers will lock their collateral in exchange for a stablecoin token that will be taken from the lending pool reserves.
 
 ![](<../.gitbook/assets/Architecture Simple - Pool (1).jpg>)
 
 **Borrowing Fees**
 
-The Cora protocol is an interest free lending platform, however every time a borrower gets a loan, it is required to pay a one time [Borrowing Fee](borrowing-fees.md). Each Liquidity Provider will receive a proportionate amount of the total borrowing fees.&#x20;
+The Cora protocol is an interest free lending platform, however every time a borrower takes a loan, it is required to pay a one time [Borrowing Fee](borrowing-fees.md). The borrowing fees go to the liquidity providers and are distributed proportionally to the liquidity provider's share of the lending pool.
 
-Liquidity Pools have associated a Borrowing Fee Calculator component that can be interchangeable via governance. The Borrowing Fee Calculator is responsible of estimating the correct Borrowing Fee and is based on [Option Pricing Models](pricing-models/) that has the goal of calculate what is the right amount that a Liquidity Provider should charge for the risk of providing a loan.&#x20;
+Lending pools have associated a Borrowing Fee Calculator smart contract that can be changed via governance. The Borrowing fee calculator is based on [Option Pricing Models](pricing-models/) and has the goal of calculating what is the right amount that a liquidity provider should charge for the risk of providing a loan.&#x20;
 
 For more information about how borrowing fees are calculated, see the [Borrowing Fees](borrowing-fees.md) section.
 

@@ -4,7 +4,7 @@ description: Learn more about how the Cora Protocol works
 
 # How Cora works
 
-The Cora Protocol is the first decentralized lending protocol that is powered by Option Strategies to manage the overall risk of a particular [Liquidity Pool](liquidity-pools.md) and to calculate the [Borrowing Fees](broken-reference) that borrowers should pay for an interest free and non liquidatable loan. This prevent Liquidity Providers to go bankrupt, since the protocol uses quantitative finance analysis methods to define the maximum amount that Liquidity Providers should lend and the right Borrowing Fee for the risk associated (see [Risk Management](risk-management.md) for more details).
+The Cora Protocol is the first decentralized lending protocol that is powered by Option Strategies to manage the overall risk of a particular Lending Pool and to calculate the [Borrowing Fees](broken-reference) that borrowers should pay for an interest free and non liquidatable loan. This prevent Liquidity Providers to go bankrupt, since the protocol uses quantitative finance analysis methods to define the maximum amount that Liquidity Providers should lend and the right Borrowing Fee for the risk associated (see [Risk Management](risk-management.md) for more details).
 
 **Introduction**
 
@@ -46,7 +46,7 @@ The combination of Options strategies, a robust Risk Management framework and Pr
 
 **How it works**
 
-**1)** Considering each [Liquidity Pool](liquidity-pools.md) has associated an Option strategy that defines the maximum percentage of a particular collateral value (collateral ratio) that borrowers can borrow.
+**1)** Considering each [Liquidity Pool](lending-pools.md) has associated an Option strategy that defines the maximum percentage of a particular collateral value (collateral ratio) that borrowers can borrow.
 
 **For example,**&#x20;
 

@@ -12,7 +12,7 @@
 ## Protocol CONCEPTS
 
 * [How Cora works](protocol-concepts/how-cora-works.md)
-* [Liquidity Pools](protocol-concepts/liquidity-pools.md)
+* [Lending Pools](protocol-concepts/lending-pools.md)
 * [Borrowing Fees](protocol-concepts/borrowing-fees.md)
 * [Pricing models](protocol-concepts/pricing-models/README.md)
   * [Black Scholes](protocol-concepts/pricing-models/black-scholes.md)

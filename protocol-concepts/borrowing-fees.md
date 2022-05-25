@@ -8,7 +8,7 @@ Traditionally in an Options Trade, an Option buyer pays a premium for the Option
 
 Similarly, in **Cora**, a Liquidity Provider is taking a risk by offering his capital to be lent without any interest, therefore he will receive a payment that we call **Borrowing Fee.**
 
-The **Borrowing Fee** is a one time payment made by the borrower in order to get a non-liquidatable loan. The value of the Borrowing Fee is variable and depends on the duration of the loan and the current spot price of the collateral being locked in a particular [Liquidity Pool](liquidity-pools.md).
+The **Borrowing Fee** is a one time payment made by the borrower in order to get a non-liquidatable loan. The value of the Borrowing Fee is variable and depends on the duration of the loan and the current spot price of the collateral being locked in a particular [Liquidity Pool](lending-pools.md).
 
 Long term loans will have a higher borrowing fee, see in the image below how borrowing fees increase as the duration of the loan increases.
 
