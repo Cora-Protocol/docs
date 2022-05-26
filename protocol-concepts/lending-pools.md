@@ -6,7 +6,7 @@ Lending pools in Cora are single asset pools of **stablecoins**, where users or 
 
 Lending Pools serve as a source of liquidity for loans. Borrowers will lock their collateral in exchange for a stablecoin token that will be taken from the lending pool reserves.
 
-![](<../.gitbook/assets/Architecture Simple - Pool (1).jpg>)
+![](../.gitbook/assets/Final-01.jpg)
 
 **Borrowing Fees**
 
