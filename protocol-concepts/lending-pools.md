@@ -1,44 +1,34 @@
+---
+description: Learn more about Lending Pools in the Cora Protocol
+---
+
 # Lending Pools
 
 #### Introduction
 
-Lending pools in Cora are single asset pools of **stablecoins**, where users or **Liquidity Providers** deposit any of the supported stablecoin **** tokens in exchange of a Cora LP token that represents the share of the pool.
+**Lending Pools** in Cora are single asset pools of **stablecoins**, where users or **Liquidity Providers** deposit any of the supported stablecoin **** tokens in exchange of a Cora LP token that represents the share of the pool.
 
-Lending Pools serve as a source of liquidity for loans. Borrowers will lock their collateral in exchange for a stablecoin token that will be taken from the lending pool reserves.
+Lending pools serve as a source of liquidity for loans. Borrowers will lock their collateral in exchange for a stablecoin token that will be taken from the lending pool reserves.
 
 ![Cora Lending Pool](../.gitbook/assets/lendingPools@2x.png)
 
 **Borrowing Fees**
 
-The Cora protocol is an interest free lending platform, however every time a borrower takes a loan, it is required to pay a one time [Borrowing Fee](borrowing-fees.md). The borrowing fees go to the liquidity providers and are distributed proportionally to the liquidity provider's share of the lending pool.
+The Cora protocol is an interest free lending platform, however every time a borrower takes a loan, it is required to pay a one time **borrowing fee**.&#x20;
 
-Lending pools have associated a Borrowing Fee Calculator smart contract that can be changed via governance. The Borrowing fee calculator is based on [Option Pricing Models](pricing-models/) and has the goal of calculating what is the right amount that a liquidity provider should charge for the risk of providing a loan.&#x20;
+The borrowing fees go to the liquidity providers and are distributed proportionally to the liquidity provider's share of the lending pool.
+
+Lending pools have associated a **Borrowing Fee Calculator** smart contract that can be changed via governance. The borrowing fee calculator is based on [Option Pricing Models](pricing-models/) and calculates what is the right amount that a liquidity provider should charge to the borrower for the risk of providing a loan.&#x20;
 
 For more information about how borrowing fees are calculated, see the [Borrowing Fees](borrowing-fees.md) section.
 
-![Borrowing Fee Calculator](../.gitbook/assets/borrowingFeeCalculator@2x.png)
+![Borrowing Fee Calculator](<../.gitbook/assets/borrowingFeeCalculator@2x (1).png>)
 
-#### Multiple Liquidity Pools
+**Lending Pool Strategy**
 
-The [Cora Protocol design](../developer/contract-architecture.md) supports the creation of multiple Pools**,** each Pool has associated a  collateral and a stablecoin.
+All lending pools have a borrowing strategy associated. The strategy will define what is the maximum amount of stablecoins that the borrowers can borrow based in the different types of collateral.
 
-Liquidity Pools have the following naming convention:
-
-> **\[Stablecoin]-\[Collateral]**
-
-For example a Liquidity Pool called:
-
-> **USDC-ETH**
-
-means, the Liquidity Pool accepts USDC deposits, and borrowers can get USDC loans using ETH as collateral.
-
-The initial release of the protocol will only support ETH as a collateral and USDC stablecoins for liquidity provision.
-
-**Pool Strategy**
-
-All Liquidity Pools have a borrowing strategy associated. The strategy will define what is the maximum amount of Stablecoins that the borrowers can borrow based in the different types of collateral.
-
-The strategy uses quantitative finance analysis methods and incorporates in its analysis external market conditions and variables like implied volatility to define a general pool collateralization ratio.
+The strategy uses quantitative finance analysis methods and incorporates in its analysis external market conditions and variables like implied volatility to define a general **loan to value (LTV).**
 
 The main goal of the strategy is define a set of parameters that have the goal of maximising the risk-reward relationship based on quantitative financial theory, that is backtested and adaptable.&#x20;
 
