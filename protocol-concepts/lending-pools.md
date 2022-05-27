@@ -6,7 +6,7 @@ Lending pools in Cora are single asset pools of **stablecoins**, where users or 
 
 Lending Pools serve as a source of liquidity for loans. Borrowers will lock their collateral in exchange for a stablecoin token that will be taken from the lending pool reserves.
 
-![](../.gitbook/assets/1.png)
+![Cora Lending Pool](../.gitbook/assets/lendingPools@2x.png)
 
 **Borrowing Fees**
 
@@ -16,9 +16,9 @@ Lending pools have associated a Borrowing Fee Calculator smart contract that can
 
 For more information about how borrowing fees are calculated, see the [Borrowing Fees](borrowing-fees.md) section.
 
-![Borrowing Fee Calculator](<../.gitbook/assets/Architecture Simple - Copy of Pool.jpg>)
+![Borrowing Fee Calculator](../.gitbook/assets/borrowingFeeCalculator@2x.png)
 
-#### &#x20;Multiple Liquidity Pools
+#### Multiple Liquidity Pools
 
 The [Cora Protocol design](../developer/contract-architecture.md) supports the creation of multiple Pools**,** each Pool has associated a  collateral and a stablecoin.
 
