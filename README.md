@@ -10,11 +10,9 @@ description: >-
 
 [Cora](https://www.cora.money) is a decentralized lending platform that allow borrowers to get **interest free and non-liquidatable** loans.
 
-Borrowers can use ETH or any supported ERC-20 token as collateral with optimised collateral ratio, helping borrowers to get the most of their assets without the risk of being liquidated.
+Using ETH or any supported ERC20 token as collateral, borrowers can borrow stablecoins for a fixed period of time and only pay a one-time borrowing fee without the risk of being liquidated.
 
-Borrowers can get any of the supported **Stablecoins** in the system for a fixed period of time. The initial release will only support loans of 30, 60 and 90 days, however future versions of the protocol will allow users to get a loan for any period of time.
-
-Lenders or Liquidity Providers can provide **Stablecoins** as liquidity to the protocol and earn **Borrowing Fees** for doing so.
+Lenders or Liquidity Providers can provide **stablecoins** as liquidity to the protocol and earn [Borrowing Fees](protocol-concepts/borrowing-fees.md) for doing so.
 
 ### **Why Cora?**
 
@@ -28,7 +26,7 @@ Cora solves both problems by introducing a new Defi Primitive:
 Lending + Options Strategies = **Cora**
 {% endhint %}
 
-This combination allow **Borrowers** to get non liquidatable loans with optimised collateral ratios at a competitive [Borrowing Fee](protocol-concepts/borrowing-fees.md) and Liquidity Providers to lend stablecoins with a [Risk Management](protocol-concepts/risk-management.md) framework that helps them to avoid loses and accumulate yield automatically.
+This combination allow borrowers to get non liquidatable loans with optimised collateral ratios at a competitive [Borrowing Fee](protocol-concepts/borrowing-fees.md) and Liquidity Providers to lend stablecoins with a [Risk Management](protocol-concepts/risk-management.md) framework that helps them to avoid loses and maximise yield automatically.
 
 To learn more about how Cora works, see the [How Cora works](protocol-concepts/how-cora-works.md) section.
 
@@ -37,7 +35,7 @@ To learn more about how Cora works, see the [How Cora works](protocol-concepts/h
 * [Official website](https://cora.money)
 * [Discord](https://discord.gg/f2CBcXe3cv)
 * [Twitter](https://twitter.com/CoraProtocol)
-* [Medium](https://cora-protocol.medium.com)
+* [Mirror](https://mirror.xyz/0xe9AeA25Fa116e6d8C43430aAc1A3b81A15C04f2E/)
 * [Github](https://github.com/cora-protocol)
 
 ​
