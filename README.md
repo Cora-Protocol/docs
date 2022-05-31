@@ -35,7 +35,7 @@ To learn more about how Cora works, see the [How Cora works](protocol-concepts/h
 * [Official website](https://cora.money)
 * [Discord](https://discord.gg/f2CBcXe3cv)
 * [Twitter](https://twitter.com/CoraProtocol)
-* [Mirror](https://mirror.xyz/0xe9AeA25Fa116e6d8C43430aAc1A3b81A15C04f2E/)
+* [Blog](https://mirror.xyz/0xe9AeA25Fa116e6d8C43430aAc1A3b81A15C04f2E/)
 * [Github](https://github.com/cora-protocol)
 
 ​
