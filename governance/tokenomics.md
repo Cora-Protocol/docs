@@ -4,7 +4,9 @@ description: Learn more about the tokenomics of the Cora Protocol
 
 # Tokenomics
 
-The Cora Protocol goal is to be fully community governed and we plan to have 2 main tokens:
+The Cora Protocol goal is to be fully community governed and we plan to have a fair token launch.
+
+Cora will have 2 main tokens:
 
 * Cora
 * xCora
