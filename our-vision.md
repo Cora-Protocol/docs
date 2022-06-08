@@ -21,7 +21,7 @@ Some of the applications we envision can be built on top of Cora and we plan to 
     A product where users can deposit their ETH and the Vault can get a loan and use the funds to provide liquidity to the protocol and earn yield.
 *   **Staking Vault**
 
-    A product where users can deposit their ETH, then the vault will stake the ETH and use the stETH to get a loan and provide liquidity to the protocol, earning fees for staking and for being liquidity provider in the Cora protocol.We
+    A product where users can deposit their ETH, then the vault will stake the ETH and use the stETH to get a loan and provide liquidity to the protocol, earning fees for staking and for being liquidity provider in the Cora protocol.
 
 Our goal is to support the creation of multiple products on top of Cora and to incentivise developers to create them.
 
