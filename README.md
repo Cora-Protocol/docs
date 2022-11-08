@@ -8,7 +8,7 @@ description: >-
 
 ### **What is Cora?**
 
-[Cora](https://www.cora.money) is a decentralized lending platform that allow borrowers to borrow stablecoins for a fixed period of time and only pay a one-time borrowing fee **without the risk of being liquidated**.
+[Cora](https://www.cora.money) is a decentralized lending platform that allow users to borrow stablecoins for a fixed period of time and only pay a one-time borrowing fee **without the risk of being liquidated**.
 
 Borrowers can use ETH or any supported ERC20 token as collateral.
 
