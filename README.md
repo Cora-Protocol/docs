@@ -8,9 +8,9 @@ description: >-
 
 ### **What is Cora?**
 
-[Cora](https://www.cora.money) is a decentralized lending platform that allow borrowers to get **interest free and non-liquidatable** loans.
+[Cora](https://www.cora.money) is a decentralized lending platform that allow borrowers to borrow stablecoins for a fixed period of time and only pay a one-time borrowing fee **without the risk of being liquidated**.
 
-Using ETH or any supported ERC20 token as collateral, borrowers can borrow stablecoins for a fixed period of time and only pay a one-time borrowing fee without the risk of being liquidated.
+Borrowers can use ETH or any supported ERC20 token as collateral.
 
 Lenders or Liquidity Providers can provide **stablecoins** as liquidity to the protocol and earn [Borrowing Fees](protocol-concepts/borrowing-fees.md) for doing so.
 
@@ -26,7 +26,7 @@ Cora solves both problems by introducing a new Defi Primitive:
 Lending + Options Strategies = **Cora**
 {% endhint %}
 
-This combination allow borrowers to get non liquidatable loans with optimised collateral ratios at a competitive [Borrowing Fee](protocol-concepts/borrowing-fees.md) and Liquidity Providers to lend stablecoins with a [Risk Management](protocol-concepts/risk-management.md) framework that helps them to avoid loses and maximise yield automatically.
+This combination allow borrowers to get non liquidatable loans with optimised collateral ratios at a competitive [Borrowing Fee](protocol-concepts/borrowing-fees.md) and Liquidity Providers to provide stablecoins with a [Risk Management](protocol-concepts/risk-management.md) framework that helps them to avoid loses and maximise yield automatically.
 
 To learn more about how Cora works, see the [How Cora works](protocol-concepts/how-cora-works.md) section.
 
