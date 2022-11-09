@@ -1,88 +1,84 @@
 ---
 description: >-
   This roadmap aims to provide an overview of the future plans and timelines of
-  the Cora Protocol.
+  the Cora Protocol
 ---
 
 # Roadmap
 
-### June 2022: Testnet launch
+### November 2022: Testnet launch
 
-The Cora Protocol will release an initial version in the Rinkeby network. The goal of this testnet release is to start battle-testing the protocol in a close to production environment.
+The Cora Protocol will release an initial version in the Goerli and Moonbase alpha network. The goal of this testnet release is to start battle-testing the protocol in a close to Mainnet environment.
 
 **The details of this release include:**
 
-* Supported Collateral: **WETH**.
-* Supported Stablecoins: **USDC**
-* Supported Loan Durations: **30 days.**
-* Option Pricer Model: **BlackScholes.**
-* Liquidity Cap: **No limits.**
+* Supported Collateral: **cWETH (Cora WETH test token)**
+* Supported Stablecoins: **cUSDC (Cora USDC test token)**
+* Supported Loan Durations: **1, 7, 14, 28 days**
+* Option Pricer Model: **BlackScholes**
+* Rounds Duration: **1 day**
+* Liquidity Cap: **No limits**
 
-### August 2022: DAO Formation&#x20;
+### December 2022: DAO Formation
 
 The Cora Protocol will be a community owned protocol. Together with the community we will define the rules  and guidelines to allow any person to be part of the DAO.
 
-### August 2022: Audit
+### December 2022: Audit
 
-The Cora Protocol will be audited at the end of Q3 of 2022. We will perform audits with Consensys Diligence and OpenZeppelin.\
-
+The Cora Protocol will be audited at the end of Q4 of 2022. We will perform audits with Consensys Diligence and Zellic.
 
 > Note: The following dates are subject to the DAO approval
 
-### September 2022: Mainnet launch
+### January 2023: Mainnet launch
 
-The Cora Protocol will be released to Production in September of 2022.
+The Cora Protocol is planned to be released to Ethereum Mainnet in January of 2022.
 
 **The details of this release include:**
 
-* Supported Collateral: WETH.
-* Supported Stablecoins: USDC
-* Supported Loan Durations: 30 days.
-* Option Pricer Model: BlackScholes.&#x20;
-* Liquidity Cap: Maximum 2 Million USDC.
+* Supported Collateral: **WETH**
+* Supported Stablecoins: **USDC**
+* Supported Loan Durations: **1, 7, 14, 28 days**
+* Option Pricer Model: **KellyCriterion**
+* Round Duration: **28 days**
+* Liquidity Cap: Maximum **2 Million USDC**
 
-### October 2022: Increase Liquidity Cap
+### February **2023: Multi collateral lending pools**
 
-Increase Liquidity cap to 5 Millions USDC.
+We plan to release Lending Pools with multiple collaterals with the goal to increase the capital efficiency of the protocol. Some of the ERC20 tokens that can potentially become accepted are:
 
-### **November 2022: Increase supported collateral tokens**
-
-Some of the ERC20 tokens that can potentially become accepted as collateral in the Cora Protocol are:
-
-* WBTC
+* cbETH
 * stETH
-* NEAR
-* AVAX
+* RETH
 
-### November 2022: Decentralized Pricing models&#x20;
-
-The Cora Protocol will allow any external participant to propose new pricing models in the protocol. Accepted pricing models will be voted via governance and will be awarded with 1% of the total protocol fees for the lifetime of their pricing model.
-
-We expect quantitative analysts, financial engineers and any other participant to propose different pricing models that can help the overall health of the system and benefit Borrowers, Liquidity Providers and the Cora Protocol.&#x20;
-
-### **December 2022: Any loan duration**
-
-The Cora Protocol will allow users to get a loan for any duration using any of the supported collateral tokens.
-
-We expect this to unlock a whole vast range of applications built of top of Cora.
-
-### 2023: Multi chain deployments
-
-Some of the networks where the Cora Protocol could be deployed are:
-
-* NEAR
-* Avalanche
-* Binance Smart Chain
-* Polygon
-* Arbitrum
-* Optimism
-
-### 2023: New Vaults Released
+### March 2023: Cora Vaults
 
 We will release a set of products built on top of the Cora Protocol.
 
-* **Self Paying Insurance Vault**
 * **Liquidity Mining Vault**
-* **Leverage Vault**
+* **Leverage Protected Staking Vault**
 * **Staking Vault**
-* **Arbitrage Vault**
+
+### March 2023: Multi chain deployments
+
+Some of the networks where the Cora Protocol is planning to deploy are:
+
+* Moonbeam
+* NEAR
+* Arbitrum
+* Optimism
+
+### Areas of Interest
+
+Some ideas that we would love to explore are:
+
+**Any loan duration**\
+****To allow users to get a loan for any duration using any of the supported collateral tokens.&#x20;
+
+**Shared liquidity across chains**\
+****Cora version 1 will have multiple instances of the protocol deployed on multiple Blockchains. However, these instances don't share liquidity. What if Cora can share liquidity across chains?
+
+**Instant withdrawals**\
+****The current version of the protocol has rounds with duration of 28 days. Which means Liquidity providers can signal to withdraw, but they have to wait for the round to finish to be able to withdraw their capital. We want to remove this barrier and allow LPs to withdraw instantly at any point.
+
+**Permissionless pools**\
+****In the first version of the protocol  the Cora DAO is the only entity that can create Lending pools, however we expect this to change via Cora DAO voting and allow any participant to deploy their own Lending pools.

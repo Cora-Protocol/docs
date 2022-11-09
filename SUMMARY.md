@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
+* [Features](features.md)
 * [Roadmap](roadmap.md)
 * [Our Vision](our-vision.md)
 

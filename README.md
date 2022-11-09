@@ -1,7 +1,7 @@
 ---
 description: >-
   Welcome to the Cora Protocol docs. This documentation aims to provide a
-  high-level overview of the protocol and its existing components.
+  high-level overview of the protocol and its existing components
 ---
 
 # Getting Started

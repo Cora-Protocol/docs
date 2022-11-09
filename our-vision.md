@@ -6,13 +6,10 @@ description: >-
 
 # Our Vision
 
-Cora is a new protocol type that can serve as a money lego and fundamental block for future applications that can take advantage of interest free and non-liquidatable loans.
+Cora is a new protocol type that can serve as a money lego and fundamental block for future applications that can take advantage of non-liquidatable loans.
 
 Some of the applications we envision can be built on top of Cora and we plan to develop some of them or support via grants are:
 
-*   **Self Paying Insurance Vault**
-
-    A product where users can deposit their ETH that they want to protect for i.e 1 year. The vault can take a loan, pay the borrowing fee and use the funds to become a liquidity provider. After 1 year, the vault will withdraw the liquidity and using the borrowing fees earned, he should be able to repay the loan and recover all the collateral.
 *   **Leverage Vault**
 
     A product where users can deposit their ETH, then the Vault will buy more ETH and sell once a certain spot price is reached. Then the vault can sell the ETH, pay the debt and recover the ETH that was initially locked.
