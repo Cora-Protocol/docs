@@ -38,23 +38,24 @@ The Cora Protocol is planned to be released to Ethereum Mainnet in January of 20
 * Supported Collateral: **WETH**
 * Supported Stablecoins: **USDC**
 * Supported Loan Durations: **1, 7, 14, 28 days**
-* Option Pricer Model: **KellyCriterion**
+* Option Pricer Model: **Hybrid (BlackScholes + Base Fee)**
 * Round Duration: **28 days**
 * Liquidity Cap: Maximum **2 Million USDC**
 
 ### February **2023: Multi collateral lending pools**
 
-We plan to release Lending Pools with multiple collaterals with the goal to increase the capital efficiency of the protocol. Some of the ERC20 tokens that can potentially become accepted are:
+We plan to release Lending Pools with multiple collaterals with the goal to increase the capital efficiency of the protocol. Some of the collateral tokens that can potentially become accepted are:
 
 * cbETH
 * stETH
 * RETH
+* ERC-4626s
 
 ### March 2023: Cora Vaults
 
 We will release a set of products built on top of the Cora Protocol.
 
-* **Liquidity Mining Vault**
+* **Yield Farming Vault**
 * **Leverage Protected Staking Vault**
 * **Staking Vault**
 
@@ -71,14 +72,18 @@ Some of the networks where the Cora Protocol is planning to deploy are:
 
 Some ideas that we would love to explore are:
 
-**Any loan duration**\
-****To allow users to get a loan for any duration using any of the supported collateral tokens.&#x20;
+**Any loan duration**
 
-**Shared liquidity across chains**\
-****Cora version 1 will have multiple instances of the protocol deployed on multiple Blockchains. However, these instances don't share liquidity. What if Cora can share liquidity across chains?
+To allow users to get a loan for any duration using any of the supported collateral tokens.&#x20;
 
-**Instant withdrawals**\
-****The current version of the protocol has rounds with duration of 28 days. Which means Liquidity providers can signal to withdraw, but they have to wait for the round to finish to be able to withdraw their capital. We want to remove this barrier and allow LPs to withdraw instantly at any point.
+**Shared liquidity across chains**
 
-**Permissionless pools**\
-****In the first version of the protocol  the Cora DAO is the only entity that can create Lending pools, however we expect this to change via Cora DAO voting and allow any participant to deploy their own Lending pools.
+Cora version 1 will have multiple instances of the protocol deployed on multiple Blockchains. However, these instances don't share liquidity. We want to allow users to deposit and withdraw from any Blockchain in a seamless way.
+
+**Instant withdrawals**
+
+The current version of the protocol has rounds with duration of 28 days. Which means Liquidity providers can signal to withdraw, but they have to wait for the round to finish to be able to withdraw their capital. We want to remove this barrier and allow LPs to withdraw instantly at any point.
+
+**Permissionless pools**
+
+In the first version of the protocol  the Cora DAO is the only entity that can create Lending pools, however we expect this to change via Cora DAO voting and allow any participant to deploy their own Lending pools.
