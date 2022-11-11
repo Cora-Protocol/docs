@@ -38,7 +38,7 @@ The Cora Protocol is planned to be released to Ethereum Mainnet in January of 20
 * Supported Collateral: **WETH**
 * Supported Stablecoins: **USDC**
 * Supported Loan Durations: **1, 7, 14, 28 days**
-* Option Pricer Model: **Hybrid (BlackScholes + Base Fee)**
+* Option Pricer Model: **Hybrid (Fixed Rate + BlackScholes)**
 * Round Duration: **28 days**
 * Liquidity Cap: Maximum **2 Million USDC**
 
