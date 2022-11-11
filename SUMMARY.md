@@ -4,11 +4,6 @@
 * [Features](features.md)
 * [Roadmap](roadmap.md)
 
-## Governance
-
-* [Overview](governance/overview.md)
-* [Tokenomics](governance/tokenomics.md)
-
 ## Protocol CONCEPTS
 
 * [How Cora works](protocol-concepts/how-cora-works.md)
@@ -18,6 +13,11 @@
   * [Black Scholes](protocol-concepts/pricing-models/black-scholes.md)
 * [Risk Management](protocol-concepts/risk-management.md)
 * [Staking](protocol-concepts/staking.md)
+
+## Governance
+
+* [Overview](governance/overview.md)
+* [Tokenomics](governance/tokenomics.md)
 
 ## USER GUIDES
 

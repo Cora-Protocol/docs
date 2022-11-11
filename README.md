@@ -12,11 +12,11 @@ description: >-
 
 Borrowers can use ETH or any supported ERC20 token as collateral.
 
-Liquidity Providers can provide **stablecoins** as liquidity to the protocol and earn [Borrowing Fees](protocol-concepts/borrowing-fees.md) for doing so.
+Lenders or Liquidity Providers can provide **stablecoins** as liquidity to the protocol and earn [Borrowing Fees](protocol-concepts/borrowing-fees.md) for doing so.
 
 ### **Why Cora?**
 
-One of the biggest pain points in the decentralized lending world are the **liquidations**. Borrowers can lose their collateral due to price decreases and extreme market volatility conditions.&#x20;
+One of the biggest pain points in the decentralized lending world are the liquidations. Borrowers can lose their collateral due to price decreases and extreme market volatility conditions.
 
 In addition to that, collateral ratios tend to be high in traditional lending protocols and capital inefficient.
 
