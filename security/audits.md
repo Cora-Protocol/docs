@@ -4,5 +4,5 @@ The security of the Cora protocol is our highest priority, we understand how imp
 
 In addition to that, the Cora protocol has been audited from the top security firms in the space. For more details, the audit reports are publicly available:
 
-* [**OpenZeppelin Audit Report**](https://www.google.com)
 * [**Consensys Diligence Audit Report**](https://www.google.com)
+* ****[**Zellic Audit Report**](https://www.google.com/)****
