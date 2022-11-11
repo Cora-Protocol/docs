@@ -6,7 +6,7 @@ description: >-
 
 # Roadmap
 
-### November 2022: Testnet launch
+## November 2022: Testnet launch
 
 The Cora Protocol will release an initial version in the Goerli and Moonbase alpha network. The goal of this testnet release is to start battle-testing the protocol in a close to Mainnet environment.
 
