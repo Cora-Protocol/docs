@@ -10,9 +10,11 @@ description: >-
 
 [Cora](https://www.cora.money) is a decentralized lending platform that allow users to borrow stablecoins for a fixed period of time and only pay a one-time borrowing fee **without the risk of being liquidated**.
 
-Borrowers can use ETH or any supported ERC20 token as collateral.
+Borrowers can use any supported token as collateral, including ERC-20s and ERC-4626s.
 
-Liquidity Providers can provide **stablecoins** as liquidity to the protocol and earn [Borrowing Fees](protocol-concepts/borrowing-fees.md) for doing so.
+Liquidity Providers can provide any supported **stablecoin** as liquidity to the protocol and earn [Borrowing Fees](protocol-concepts/borrowing-fees.md) for doing so.
+
+We have created a video explainer to help you learn more about Cora.
 
 {% embed url="https://vimeo.com/746908452" %}
 
@@ -20,7 +22,7 @@ Liquidity Providers can provide **stablecoins** as liquidity to the protocol and
 
 One of the biggest pain points in the decentralized lending world are the **liquidations**. Borrowers can lose their collateral due to price decreases and extreme market volatility conditions.&#x20;
 
-In addition to that, collateral ratios tend to be high in traditional lending protocols and capital inefficient.
+In addition to that, collateral ratios in traditional lending protocols tend to be high and capital inefficient.
 
 Cora solves both problems by introducing a new Defi Primitive:
 
