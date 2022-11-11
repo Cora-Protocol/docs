@@ -28,10 +28,10 @@
 * [Stake Cora](user-guides/stake-cora.md)
 * [Unstake Cora](user-guides/unstake-cora.md)
 
-## Developer
+## Developers
 
-* [Contract Architecture](developer/contract-architecture.md)
-* [Contract Addresses](developer/contract-addresses.md)
+* [Contract Architecture](developers/contract-architecture.md)
+* [Contract Addresses](developers/contract-addresses.md)
 
 ## SECURITY
 
