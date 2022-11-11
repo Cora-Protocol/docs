@@ -67,23 +67,3 @@ Some of the networks where the Cora Protocol is planning to deploy are:
 * NEAR
 * Arbitrum
 * Optimism
-
-### Areas of Interest
-
-Some ideas that we would love to explore are:
-
-**Any loan duration**
-
-To allow users to get a loan for any duration using any of the supported collateral tokens.&#x20;
-
-**Shared liquidity across chains**
-
-Cora version 1 will have multiple instances of the protocol deployed on multiple Blockchains. However, these instances don't share liquidity. We want to allow users to deposit and withdraw from any Blockchain in a seamless way.
-
-**Instant withdrawals**
-
-The current version of the protocol has rounds with duration of 28 days. Which means Liquidity providers can signal to withdraw, but they have to wait for the round to finish to be able to withdraw their capital. We want to remove this barrier and allow LPs to withdraw instantly at any point.
-
-**Permissionless pools**
-
-In the first version of the protocol  the Cora DAO is the only entity that can create Lending pools, however we expect this to change via Cora DAO voting and allow any participant to deploy their own Lending pools.
