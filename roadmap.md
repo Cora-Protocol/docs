@@ -27,7 +27,7 @@ The Cora Protocol will be a community owned protocol. Together with the communit
 
 The Cora Protocol will be audited at the end of Q4 of 2022. We will perform audits with Consensys Diligence and Zellic.
 
-> Note: The following dates are subject to the DAO approval
+<mark style="background-color:orange;">**Note: The following dates are subject to the DAO approval**</mark>
 
 ### January 2023: Mainnet launch
 
