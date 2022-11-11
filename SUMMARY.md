@@ -12,7 +12,6 @@
 * [Pricing models](protocol-concepts/pricing-models/README.md)
   * [Black Scholes](protocol-concepts/pricing-models/black-scholes.md)
 * [Risk Management](protocol-concepts/risk-management.md)
-* [Staking](protocol-concepts/staking.md)
 
 ## Governance
 
