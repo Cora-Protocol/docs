@@ -20,4 +20,4 @@ A product where users can deposit their ETH, then the vault will borrow and buy 
 
 A product where users can deposit their ETH, then the vault will stake the ETH for instance in Lido and use the stETH to get a loan and provide liquidity to the protocol, earning fees for staking and for being liquidity provider in the Cora protocol.
 
-We invite the community to help us to find new use cases and build on top of Cora.
+We invite the community to help us to find new use cases and build on top of Cora !
