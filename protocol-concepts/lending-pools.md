@@ -6,7 +6,7 @@ description: Learn more about Lending Pools in the Cora Protocol
 
 #### Introduction
 
-**Lending Pools** in Cora are single asset pools of **stablecoins**, where users or **Liquidity Providers** deposit any of the supported stablecoin **** tokens in exchange of a Cora LP token that represents the share of the pool.
+**Lending pools** in Cora are single asset pools of **stablecoins**, where users or **liquidity providers** deposit any of the supported stablecoin **** tokens in exchange of a Cora LP token that represents the share of the pool.
 
 Lending pools serve as a source of liquidity for loans. Borrowers will lock their collateral in exchange for a stablecoin token that will be taken from the lending pool reserves.
 

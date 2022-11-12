@@ -3,6 +3,7 @@
 * [Getting Started](README.md)
 * [Features](features.md)
 * [Roadmap](roadmap.md)
+* [Vision](vision.md)
 
 ## Protocol CONCEPTS
 
@@ -12,6 +13,16 @@
 * [Pricing models](protocol-concepts/pricing-models/README.md)
   * [Black Scholes](protocol-concepts/pricing-models/black-scholes.md)
 * [Risk Management](protocol-concepts/risk-management.md)
+
+## Ecosystem Participants
+
+* [Overview](ecosystem-participants/overview.md)
+* [Borrowers](ecosystem-participants/borrowers.md)
+* [Liquidity Providers](ecosystem-participants/liquidity-providers.md)
+* [Risk Managers](ecosystem-participants/tokenomics.md)
+* [Integrators](ecosystem-participants/integrators.md)
+* [Cora DAO](ecosystem-participants/cora-dao.md)
+* [Cora Core Team](ecosystem-participants/cora-core-team.md)
 
 ## Governance
 
