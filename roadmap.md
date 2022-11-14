@@ -14,9 +14,9 @@ The Cora Protocol will release an initial version in the Goerli and Moonbase alp
 
 * Supported Collateral: **cWETH (Cora WETH test token)**
 * Supported Stablecoins: **cUSDC (Cora USDC test token)**
-* Supported Loan Durations: **1, 7, 14, 28 days**
+* Supported Loan Durations: **12, 24, 36, 48 hours (Test durations)**
 * Option Pricer Model: **BlackScholes**
-* Rounds Duration: **1 day**
+* Rounds Duration: **3 days**
 * Liquidity Cap: **No limits**
 
 ### December 2022: DAO Formation
@@ -35,9 +35,9 @@ The Cora Protocol is planned to be released to Ethereum Mainnet in January of 20
 
 **The details of this release include:**
 
-* Supported Collateral: **WETH**
+* Supported Collateral: **stETH**
 * Supported Stablecoins: **USDC**
-* Supported Loan Durations: **1, 7, 14, 28 days**
+* Supported Loan Durations: **3, 7, 14, 28 days**
 * Option Pricer Model: **Hybrid (Fixed Rate + BlackScholes)**
 * Round Duration: **28 days**
 * Liquidity Cap: Maximum **2 Million USDC**
