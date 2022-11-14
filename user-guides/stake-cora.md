@@ -1,3 +1,0 @@
-# Stake Cora
-
-Coming soon...

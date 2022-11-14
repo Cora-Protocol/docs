@@ -16,13 +16,13 @@ Imagine a user who has 10 ETH and 10 ETH Put Options with a strike price of $300
 
 If at expiration the price of ETH falls below $3000. The user can still sell the asset at $3000 due to the fact that he owns ETH Put Options.
 
-Considering put options can work as a protection mechanism to ensure user's collateral, we could think of a lending platform where borrowers can provide an underlying asset plus a Put Option in order to get a loan in Stablecoin for the value of the strike price. This is possible because in the worst case scenario, the lender can always exercise the Option using the borrower's collateral, and recover the total amount of Stablecoin that was initially lent.
+Considering put options can work as a protection mechanism to ensure user's collateral, we could think of a lending platform where borrowers can provide an underlying asset plus a Put Option in order to get a loan in stablecoin for the value of the strike price. This is possible because in the worst case scenario, the lender can always exercise the Option using the borrower's collateral, and recover the total amount of stablecoin that was initially lent.
 
 > Collateral + Put Option = Safe Loan
 
 An architecture for such system could look like:
 
-<figure><img src="../.gitbook/assets/how-it-works@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/how-it-works-white@2x.png" alt=""><figcaption></figcaption></figure>
 
 Notice how the borrower could simply provide his collateral plus a borrowing fee for the interest free and non liquidatable loan. Then the protocol could abstract the complexity of buying an Option in an external Option's market and the lender would be able to provide a loan without risk, since the risk is being taken by the Option seller, who is getting paid a Premium for doing so.&#x20;
 

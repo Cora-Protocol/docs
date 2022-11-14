@@ -30,7 +30,7 @@ Cora solves both problems by introducing a new Defi Primitive:
 Lending + Options Strategies = **Cora**
 {% endhint %}
 
-This combination allow borrowers to get non liquidatable loans with optimised collateral ratios at a competitive [Borrowing Fee](protocol-concepts/borrowing-fees.md) and Liquidity Providers to provide stablecoins with a [Risk Management](protocol-concepts/risk-management.md) framework that helps them to avoid loses and maximise yield automatically.
+This combination allow borrowers to get non liquidatable loans with optimised collateral ratios at a competitive [Borrowing Fee](protocol-concepts/borrowing-fees.md) and Liquidity Providers to provide stablecoins with a [Risk Management](protocol-concepts/risk-management.md) framework that helps them to avoid loses and earn yield automatically.
 
 To learn more about how Cora works, see the [How Cora works](protocol-concepts/how-cora-works.md) section.
 

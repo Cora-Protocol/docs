@@ -35,8 +35,6 @@
 * [Repay a Loan](user-guides/repay-a-loan.md)
 * [Adding Liquidity](user-guides/adding-liquidity.md)
 * [Removing Liquidity](user-guides/removing-liquidity.md)
-* [Stake Cora](user-guides/stake-cora.md)
-* [Unstake Cora](user-guides/unstake-cora.md)
 
 ## Developers
 
