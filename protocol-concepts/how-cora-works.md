@@ -42,7 +42,7 @@ The Cora protocol doesn't have Option sellers, the Liquidity Provider becomes a 
 
 The combination of Options strategies, a robust Risk Management framework and Pricing Models gives Cora other advantages in terms of capital efficiency and simplicity.
 
-<figure><img src="../.gitbook/assets/how-it-works-the-cora-way@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/the-cora-way-minion@2x.png" alt=""><figcaption></figcaption></figure>
 
 **How it works**
 
