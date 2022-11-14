@@ -22,7 +22,7 @@ Considering put options can work as a protection mechanism to ensure user's coll
 
 An architecture for such system could look like:
 
-<figure><img src="../.gitbook/assets/how-it-works-white@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/how-it-works@2x.png" alt=""><figcaption></figcaption></figure>
 
 Notice how the borrower could simply provide his collateral plus a borrowing fee for the interest free and non liquidatable loan. Then the protocol could abstract the complexity of buying an Option in an external Option's market and the lender would be able to provide a loan without risk, since the risk is being taken by the Option seller, who is getting paid a Premium for doing so.&#x20;
 
