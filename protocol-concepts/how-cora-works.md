@@ -42,15 +42,15 @@ The Cora protocol doesn't have Option sellers, the Liquidity Provider becomes a 
 
 The combination of Options strategies, a robust Risk Management framework and Pricing Models gives Cora other advantages in terms of capital efficiency and simplicity.
 
-<figure><img src="../.gitbook/assets/the-cora-way-minion@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/the-cora-way-minion@2x (1).png" alt=""><figcaption></figcaption></figure>
 
 **How it works**
 
-**1)** Considering each [Liquidity Pool](lending-pools.md) has associated an Option strategy that defines the maximum percentage of a particular collateral value (collateral ratio) that borrowers can borrow.
+**1)** Considering each [Liquidity Pool](lending-pools.md) has associated an Option strategy that defines the maximum percentage of a particular collateral value (LTV) that borrowers can borrow.
 
 **For example,**&#x20;
 
-The Liquidity Pool for ETH could have a maximum percentage to borrow of 80%.&#x20;
+The Liquidity Pool for ETH could have a LTV of 80%.&#x20;
 
 It means that the borrower can get up to 80% of the ETH spot price at borrowing time. So we could define:
 
@@ -58,11 +58,11 @@ It means that the borrower can get up to 80% of the ETH spot price at borrowing 
 MAX_AMOUNT_TO_BORROW = CURRENT_ETH_SPOT_PRICE * 0.80
 ```
 
-**2)** A borrower can come the platform, lock his ETH, select an expiration date and receive up to 80% of the ETH spot price in Stablecoin minus the borrowing fee.&#x20;
+**2)** A borrower can come the platform, lock his ETH, select an expiration date and receive up to 80% of the ETH spot price in stablecoin minus the borrowing fee.&#x20;
 
 **For example,**&#x20;
 
-The ETH spot price at borrowing time is $4000, then he can get up to $3600 in Stablecoin minus let's say $200 of borrowing fee.
+The ETH spot price at borrowing time is $4000, then he can get up to $3600 in stablecoin minus let's say $200 of borrowing fee.
 
 So we could define:
 
@@ -76,20 +76,20 @@ In our example, he will effectively get:
 AMOUNT_BORROWED = 4000 * 0.80 - 200 = $ 3000
 ```
 
-**3)** At expiration time, the Borrower has 2 options:
+**3)** At expiration time, the borrower has 2 options:
 
 1. Repay the loan and recover his ETH
-2. Let the loan expire (not repaying) and keep the initial Stablecoin borrowed
+2. Let the loan expire (not repaying) and keep the initial stablecoin borrowed
 
 Both cases are up to the borrower, he can decide what is best, however economically speaking this will depend of the ETH spot price at expiration.&#x20;
 
-**For example,**&#x20;
+**Let's analyse both cases:**
 
-**Case 1:**
+**Case 1: Price goes up**
 
-If at expiration the ETH price is $5000. Then the borrower has the economic incentive to come back to the platform and repay his loan, since the ETH value is higher than the amount of Stablecoin he initially borrowed.
+If at expiration the ETH price is $5000. Then the borrower has the economic incentive to come back to the platform and repay his loan, since the ETH value is higher than the amount of stablecoin he initially borrowed.
 
-**Case 2:**
+**Case 2: Price goes down**
 
 If the price of ETH is less than $4000, let's say $2800. The borrower doesn't have an economic incentive to repay his loan, since he can buy 1 ETH in a secondary market for a price of $2800.&#x20;
 
@@ -97,7 +97,7 @@ In fact, if this particular case he will end up making a profit, because they in
 
 **Conclusion**
 
-The Cora protocol is an innovative Defi protocol design that allow borrowers to get an interest free and non liquidatable loan. It solves the liquidation problem in a very elegant way that also provides benefits in terms of capital efficiency, so that borrowers can get more of their assets without having to worry about price decreases.
+The Cora protocol is an innovative Defi protocol design that allow borrowers to get fixed term loans without liquidations. It solves the liquidation problem in a very elegant way that also provides benefits in terms of capital efficiency, so that borrowers can get more of their assets without having to worry about price decreases.
 
 For more details about how the Cora protocol protects Liquidity Providers to avoid losing capital, please refer to the [Risk Management](risk-management.md) section.
 
