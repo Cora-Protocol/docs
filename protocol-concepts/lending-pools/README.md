@@ -18,7 +18,7 @@ Every time a borrower takes a loan, it is required to pay a one time **borrowing
 
 The borrowing fees go to the liquidity providers and are distributed proportionally to the liquidity provider's share of the lending pool.
 
-Lending pools have associated a **** [Price model](../pricing-models/) **** smart contract that can be changed via governance.&#x20;
+Lending pools have associated a **** [Price model](../pricing-models.md) **** smart contract that can be changed via governance.&#x20;
 
 These models are based on Option's pricing models and calculates what is the right amount that a liquidity provider should charge to the borrower for the risk of providing a non liquidatable loan.&#x20;
 
@@ -32,7 +32,7 @@ All lending pools have a borrowing strategy associated. The strategy will define
 
 The strategy uses quantitative finance analysis methods and incorporates in its analysis external market conditions and variables like implied volatility to define a general **loan to value (LTV).**
 
-The main goal of the strategy is define a set of parameters that have the goal of maximising the risk-reward relationship based on quantitative financial theory, that is backtested and adaptable.&#x20;
+The main goal of the strategy is to define a set of parameters that have the goal of maximising the risk-reward relationship based on quantitative financial theory, that is backtested and adaptable.&#x20;
 
 ![](<../../.gitbook/assets/Architecture Simple - Copy of Pool (1).jpg>)
 
@@ -40,27 +40,41 @@ For more information about the Risk Management, please check the [Risk Managemen
 
 #### **Pool Parameters**
 
-_Collateral_
+_**Collateral token**_
 
-The collateral that the Liquidity Pool will accept in order to provide a loan.
+The collateral that the Lending pool will accept in order to provide a loan.
 
-_Stablecoin_
+_**Stablecoin token**_
 
-The Stablecoin that the Liquidity Pool will accept as liquidity and to offer a loan.
+The stablecoin that the Lending pool will accept as liquidity and to offer a loan.
 
-_Maximum percentage to borrow_
+_**Max LTV**_
 
-The Pool Strategy will define what is the maximum amount of Stablecoins that the borrowers can borrow based in the different types of collateral.
+The Lending pool strategy will define what is the maximum amount of stablecoins that the borrowers can borrow based in the different types of collateral, we call this process maximum LTV selection.
 
 For example:
 
-Using ETH as collateral, the system can define a maximum percentage to borrow of 80%&#x20;
+Using ETH as collateral, the strategy can define a maximum LTV of 80%.
 
 Then a user can borrow up to 80% of their ETH spot price at borrowing time.
 
-_Borrowing Fee Calculator_
+_**Price model**_
 
-Each Liquidity Pool can have a different Borrowing Fee Calculator, this Borrowing Fee calculated is mostly known in the traditional Options world as a Price Model, this price model can be changed and upgraded via governance (see the [Pricing Models](../pricing-models/) section for more details).
+Each Lending pool can have a different price model. This price model can be changed and upgraded via governance (see the [Pricing Models](../pricing-models.md) section for more details).
+
+_**Price feed**_
+
+At borrowing time, the Lending pool will verify the current collateral value in order to validate that the amount requested is lower than the maximum LTV. The price feed address is a Chainlink data feed for the particular collateral.
+
+_**Minimum amount to borrow**_
+
+_**Minimum amount to deposit**_
+
+_**Maximum cap**_
+
+_**Round duration**_
+
+_**Genesis round duration**_
 
 #### **Risks**
 

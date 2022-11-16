@@ -11,11 +11,7 @@
 * [Lending Pools](protocol-concepts/lending-pools/README.md)
   * [Rounds](protocol-concepts/lending-pools/rounds.md)
 * [Borrowing Fees](protocol-concepts/borrowing-fees.md)
-* [Pricing models](protocol-concepts/pricing-models/README.md)
-  * [Fixed Rate](protocol-concepts/pricing-models/fixed-rate.md)
-  * [Black Scholes](protocol-concepts/pricing-models/black-scholes.md)
-  * [Kelly](protocol-concepts/pricing-models/kelly.md)
-  * [Hybrid](protocol-concepts/pricing-models/hybrid.md)
+* [Pricing models](protocol-concepts/pricing-models.md)
 * [Risk Management](protocol-concepts/risk-management.md)
 
 ## Ecosystem Participants

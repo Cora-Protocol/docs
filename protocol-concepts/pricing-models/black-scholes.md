@@ -1,3 +1,0 @@
-# Black Scholes
-
-TODO
