@@ -20,7 +20,7 @@ The borrowing fees go to the liquidity providers and are distributed proportiona
 
 Lending pools have associated a **** [Price model](../pricing-models.md) **** smart contract that can be changed via governance.&#x20;
 
-These models are based on Option's pricing models and calculates what is the right amount that a liquidity provider should charge to the borrower for the risk of providing a non liquidatable loan.&#x20;
+These models are based on Option's pricing models and calculate what is the right amount that a liquidity provider should charge to the borrower for the risk of providing a non liquidatable loan.&#x20;
 
 For more information about how borrowing fees are calculated, see the [Borrowing Fees](../borrowing-fees.md) section.
 
@@ -30,11 +30,11 @@ For more information about how borrowing fees are calculated, see the [Borrowing
 
 All lending pools have a borrowing strategy associated. The strategy will define what is the maximum amount of stablecoins that the borrowers can borrow based in the different types of collateral.
 
-The strategy uses quantitative finance analysis methods and incorporates in its analysis external market conditions and variables like implied volatility to define a general **loan to value (LTV).**
+The strategy uses quantitative finance analysis methods and incorporates in its analysis external market conditions and variables like implied volatility to define risk parameters in the Lending pool.
 
-The main goal of the strategy is to define a set of parameters that have the goal of maximising the risk-reward relationship based on quantitative financial theory, that is backtested and adaptable.&#x20;
+Strategies are fully backtested and are adaptable based on external factors. Their main goal is to maximise the risk-reward relationship based on quantitative financial theory and help LPs to manage their risk.
 
-![](<../../.gitbook/assets/Architecture Simple - Copy of Pool (1).jpg>)
+<figure><img src="../../.gitbook/assets/lending-pool-strategy@2x (1).png" alt=""><figcaption><p>Decentralized Risk Management Engine</p></figcaption></figure>
 
 For more information about the Risk Management, please check the [Risk Management](../risk-management.md) section.
 
@@ -68,19 +68,25 @@ At borrowing time, the Lending pool will verify the current collateral value in 
 
 _**Minimum amount to borrow**_
 
+This is the minimum amount that borrowers should be able to request.&#x20;
+
 _**Minimum amount to deposit**_
+
+This is the minimum amount that borrowers should be able to request.&#x20;
 
 _**Maximum cap**_
 
+This is the minimum amount that borrowers should be able to request.&#x20;
+
 _**Round duration**_
+
+This is the minimum amount that borrowers should be able to request.&#x20;
 
 _**Genesis round duration**_
 
-#### **Risks**
+This is the minimum amount that borrowers should be able to request.&#x20;
 
-As in any other system where users provide liquidity, there are risks inherent of the nature of a decentralized system, like hacks or black swan events that could make the markets crash.
-
-However, we have worked in trying to minimise them, by auditing our code (see [Audits](../../security/audits.md) section), defining procedures for contingency and unexpected situations and by having a Risk Management framework that has been backtested and simulated (see the [Risk Management ](../risk-management.md)section for more details).&#x20;
+****
 
 ****
 

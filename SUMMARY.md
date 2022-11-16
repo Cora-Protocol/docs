@@ -43,6 +43,7 @@
 
 ## SECURITY
 
+* [Risks](security/risks.md)
 * [Audits](security/audits.md)
 
 ## RESOURCES

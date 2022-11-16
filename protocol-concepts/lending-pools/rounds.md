@@ -1,8 +1,8 @@
 ---
-description: Explicar el ciclo del lending pool
+description: Learn how rounds work in the Cora Protocol
 ---
 
 # Rounds
 
-Ciclo del Lending Pool
+Lending pools run perpetually, they are unstoppable and immutable.
 
