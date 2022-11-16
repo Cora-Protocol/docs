@@ -20,15 +20,11 @@ The borrowing fees go to the liquidity providers and are distributed proportiona
 
 Lending pools have associated a **** [Price model](../pricing-models/) **** smart contract that can be changed via governance.&#x20;
 
-\<TODO> pool con multiple price models
-
-decir que estan basados en options price models pero que puede ser cualquier cosa
-
 These models are based on Option's pricing models and calculates what is the right amount that a liquidity provider should charge to the borrower for the risk of providing a non liquidatable loan.&#x20;
 
 For more information about how borrowing fees are calculated, see the [Borrowing Fees](../borrowing-fees.md) section.
 
-![Borrowing Fee Calculator](<../../.gitbook/assets/borrowingFeeCalculator@2x (1).png>)
+<figure><img src="../../.gitbook/assets/multiple-price-models-white@2x (1).png" alt=""><figcaption><p>Lending pool and price models</p></figcaption></figure>
 
 **Lending Pool Strategy**
 
