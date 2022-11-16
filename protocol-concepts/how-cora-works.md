@@ -22,9 +22,9 @@ Considering put options can work as a protection mechanism to ensure user's coll
 
 An architecture for such system could look like:
 
-<figure><img src="../.gitbook/assets/how-it-works@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/how-it-works-white@2x.png" alt=""><figcaption></figcaption></figure>
 
-Notice how the borrower could simply provide his collateral plus a borrowing fee for the interest free and non liquidatable loan. Then the protocol could abstract the complexity of buying an Option in an external Option's market and the lender would be able to provide a loan without risk, since the risk is being taken by the Option seller, who is getting paid a Premium for doing so.&#x20;
+Notice how the borrower could simply provide his collateral plus a borrowing fee for the non liquidatable loan. Then the protocol could abstract the complexity of buying an Option in an external Option's market and the lender would be able to provide a loan without risk, since the risk is being taken by the Option seller, who is getting paid a premium for doing so.&#x20;
 
 **Limitations**
 
@@ -42,11 +42,11 @@ The Cora protocol doesn't have Option sellers, the Liquidity Provider becomes a 
 
 The combination of Options strategies, a robust Risk Management framework and Pricing Models gives Cora other advantages in terms of capital efficiency and simplicity.
 
-<figure><img src="../.gitbook/assets/the-cora-way-minion@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/how-it-works-the-cora-way-white@2x.png" alt=""><figcaption></figcaption></figure>
 
 **How it works**
 
-**1)** Considering each [Liquidity Pool](lending-pools.md) has associated an Option strategy that defines the maximum percentage of a particular collateral value (LTV) that borrowers can borrow.
+**1)** Considering each [Liquidity Pool](lending-pools/) has associated an Option strategy that defines the maximum percentage of a particular collateral value (LTV) that borrowers can borrow.
 
 **For example,**&#x20;
 

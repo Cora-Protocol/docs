@@ -14,7 +14,7 @@ The Cora Protocol will release an initial version in the Goerli and Moonbase alp
 
 * Supported Collateral: **cWETH (Cora WETH test token)**
 * Supported Stablecoins: **cUSDC (Cora USDC test token)**
-* Supported Loan Durations: **12, 24, 36, 48 hours (Test durations)**
+* Supported Loan Durations: **12, 24, 36, 48 hours (Testnet durations)**
 * Option Pricer Model: **BlackScholes**
 * Rounds Duration: **3 days**
 * Liquidity Cap: **No limits**
@@ -27,9 +27,9 @@ The Cora Protocol will be a community owned protocol. Together with the communit
 
 The Cora Protocol will be audited at the end of Q4 of 2022. We will perform audits with Consensys Diligence and Zellic.
 
-<mark style="background-color:orange;">**Note: The following dates are subject to the DAO approval**</mark>
+<mark style="background-color:orange;">**Disclaimer: The following dates are subject to the DAO approval and could change.**</mark>
 
-### January 2023: Mainnet launch
+### Q1 2023: Mainnet launch
 
 The Cora Protocol is planned to be released to Ethereum Mainnet in January of 2022.
 
@@ -42,7 +42,7 @@ The Cora Protocol is planned to be released to Ethereum Mainnet in January of 20
 * Round Duration: **28 days**
 * Liquidity Cap: Maximum **2 Million USDC**
 
-### February **2023: Multi collateral lending pools**
+### **Q2 2023: Multi collateral lending pools**
 
 We plan to release Lending Pools with multiple collaterals with the goal to increase the capital efficiency of the protocol. Some of the collateral tokens that can potentially become accepted are:
 
@@ -51,7 +51,7 @@ We plan to release Lending Pools with multiple collaterals with the goal to incr
 * RETH
 * ERC-4626s
 
-### March 2023: Cora Vaults
+### Q2 2023: Cora Vaults
 
 We will release a set of products built on top of the Cora Protocol.
 
@@ -59,7 +59,7 @@ We will release a set of products built on top of the Cora Protocol.
 * **Leverage Protected Staking Vault**
 * **Staking Vault**
 
-### March 2023: Multi chain deployments
+### Q2 2023: Multi chain deployments
 
 Some of the networks where the Cora Protocol is planning to deploy are:
 
