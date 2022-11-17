@@ -68,23 +68,37 @@ At borrowing time, the Lending pool will verify the current collateral value in 
 
 _**Minimum amount to borrow**_
 
-This is the minimum amount that borrowers should be able to request.&#x20;
+Minimum amount that users should be able to borrow.&#x20;
 
 _**Minimum amount to deposit**_
 
-This is the minimum amount that borrowers should be able to request.&#x20;
+Minimum amount that liquidity providers should deposit.
 
 _**Maximum cap**_
 
-This is the minimum amount that borrowers should be able to request.&#x20;
+Maximum capacity of the Lending pool. In other words, this is the maximum amount of stablecoins that lending pools will accept as deposit. After this threshold is crossed, new deposits will be reverted.
+
+This ensures the levels of utilization of the Lending pool stay at a level that ensures that liquidity providers keep earning competitive yields.&#x20;
 
 _**Round duration**_
 
-This is the minimum amount that borrowers should be able to request.&#x20;
+This is the duration of the round in seconds.
+
+Rounds are a fundamental part of the life cycle of a Lending pool. We have dedicated [a section ](rounds.md)where you can learn more about its purpose and how they work.
 
 _**Genesis round duration**_
 
-This is the minimum amount that borrowers should be able to request.&#x20;
+This is the duration of the genesis round in seconds.
+
+The genesis round is the first round in the life cycle of any Lending pool. This round automatically starts after the creation of the Lending pool.&#x20;
+
+The goal of the genesis round is to enable the Lending pool to "load" stablecoins in its reserves. You can imagine this as the gasoline needed for a car to start.&#x20;
+
+During the genesis round there are not restrictions of withdrawals and deposits, however once the genesis round finishes, the normal rounds will start.&#x20;
+
+You can learn more about the life cycle of a Lending pool in [this section.](rounds.md)
+
+
 
 ****
 
