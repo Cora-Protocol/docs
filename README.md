@@ -4,7 +4,7 @@ description: >-
   high-level overview of the protocol and its existing components
 ---
 
-# Getting Started
+# 🚀 Getting Started
 
 ### **What is Cora?**
 

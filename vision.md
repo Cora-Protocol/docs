@@ -4,11 +4,11 @@ description: >-
   applications.
 ---
 
-# Vision
+# 🌈 Vision
 
 Cora is a new protocol type that can serve as a money lego and fundamental block for future applications that can take advantage of a non-liquidatable base layer.&#x20;
 
-<figure><img src=".gitbook/assets/vision@2x.png" alt=""><figcaption><p>Our vision</p></figcaption></figure>
+<figure><img src=".gitbook/assets/vision-white@2x (2).png" alt=""><figcaption><p>Our vision</p></figcaption></figure>
 
 Some of the applications we envision can be built on top of Cora and we plan to develop some of them or support via grants are:
 

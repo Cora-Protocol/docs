@@ -4,7 +4,7 @@ description: >-
   the Cora Protocol
 ---
 
-# Roadmap
+# 🗺 Roadmap
 
 ## November 2022: Testnet launch
 

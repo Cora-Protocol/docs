@@ -1,9 +1,9 @@
 # Table of contents
 
-* [Getting Started](README.md)
-* [Features](features.md)
-* [Roadmap](roadmap.md)
-* [Vision](vision.md)
+* [🚀 Getting Started](README.md)
+* [➕ Features](features.md)
+* [🗺 Roadmap](roadmap.md)
+* [🌈 Vision](vision.md)
 
 ## Protocol CONCEPTS
 
