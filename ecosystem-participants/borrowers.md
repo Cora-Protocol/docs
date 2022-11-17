@@ -14,4 +14,4 @@ We can view the borrowers position in the following way:
 
 <figure><img src="../.gitbook/assets/borrower-position@2x (3).png" alt=""><figcaption><p>Borrower's position</p></figcaption></figure>
 
-As we notice, borrowers have a limited downside, which is specified by the amount the borrow, which means they are fully protected, however we can see that they still have the unlimited upside.
+As we can see, borrowers have a limited downside, which is specified by the amount the borrow, which means they are fully protected, however we can see that they still have the unlimited upside.
