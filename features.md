@@ -6,11 +6,11 @@ description: Here we describe the main features of the Cora Protocol
 
 **Capital Efficient**
 
-One of the main features of the Cora protocol its capital efficiency. \
+One of the main features of the Cora protocol is its capital efficiency. \
 \
 Liquidity providers simple deposit stablecoins in the Lending pools. The version 1 of the protocol has unique Lending pools per pair of assets, for instance the pool **stETH-USDC** would accept stETH as collateral and offer loans in USDC.&#x20;
 
-The version 2 of the protocol will allow **multi collateral Lending pools**, where a single Lending pool will be able to accept a whole family of collateral types, for instance stETH, cbETH, RETH, ETH, WETH, ERC-4626s and offer loans in USDC or any other selected stablecoin .
+The version 2 of the protocol will allow **multi-collateral Lending pools**, where a single Lending pool will be able to accept a whole family of collateral types, for instance stETH, cbETH, RETH, ETH, WETH, ERC-4626s and offer loans in USDC or any other selected stablecoin .
 
 One single pool of liquidity is used to offer loans of multiple durations and multiple LTVs. This has great benefits since there is **NOT** liquidity fragmentation.
 
