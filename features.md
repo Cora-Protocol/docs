@@ -2,7 +2,7 @@
 description: Here we describe the main features of the Cora Protocol
 ---
 
-# ➕ Features
+# Features
 
 **Capital Efficient**
 
