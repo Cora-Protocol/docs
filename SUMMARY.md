@@ -5,7 +5,7 @@
 * [🗺 Roadmap](roadmap.md)
 * [🌈 Vision](vision.md)
 
-## Protocol CONCEPTS
+## 📗 Protocol CONCEPTS
 
 * [How Cora works](protocol-concepts/how-cora-works.md)
 * [Lending Pools](protocol-concepts/lending-pools/README.md)
@@ -14,7 +14,7 @@
 * [Pricing models](protocol-concepts/pricing-models.md)
 * [Risk Management](protocol-concepts/risk-management.md)
 
-## Ecosystem Participants
+## 📙 Ecosystem Participants
 
 * [Overview](ecosystem-participants/overview.md)
 * [Borrowers](ecosystem-participants/borrowers.md)
