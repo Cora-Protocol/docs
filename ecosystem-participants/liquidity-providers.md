@@ -24,4 +24,4 @@ As we can see, liquidity providers have an unlimited downside and a limited upsi
 
 In the Cora protocol, liquidity providers take the risk of the loans, however this risk is managed and constantly monitored to help liquidity providers don't go bankrupt.
 
-If you want to learn more about the risk management engine of Cora, please Read the Risk Management section for more information.
+If you want to learn more about the risk management engine of Cora, please Read the [Risk Management](../protocol-concepts/risk-management.md) section for more information.
