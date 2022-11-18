@@ -32,7 +32,9 @@ Withdrawals will look like:
 
 <figure><img src="../../.gitbook/assets/rounds-withdraw@2x.png" alt=""><figcaption><p>Visualisation of the Lending pool withdrawals</p></figcaption></figure>
 
+Keep in mind that at any point in time users can deposit and withdraw, however their liquidity or withdrawals won't be active till the next round.&#x20;
 
+Some exceptions can happen if the deposit and withdrawals are within the same round. Since the liquidity hasn't been **"activated"** it is still possible to cancel any action within the same round.
 
 
 
