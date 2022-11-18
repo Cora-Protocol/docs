@@ -6,4 +6,4 @@ description: Learn how Integrators help and benefit from the Cora Protocol
 
 Integrators are a fundamental piece of the Cora
 
-The Cora protocol&#x20;
+Coming soon...
