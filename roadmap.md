@@ -31,7 +31,7 @@ The Cora Protocol will be audited at the end of Q4 of 2022. We will perform audi
 
 ### Q1 2023: Mainnet launch
 
-The Cora Protocol is planned to be released to Ethereum Mainnet in January of 2022.
+The Cora Protocol is planned to be released to Ethereum Mainnet in January of 2023.
 
 **The details of this release include:**
 
