@@ -34,6 +34,7 @@
 * [Getting a Loan](user-guides/getting-a-loan.md)
 * [Repay a Loan](user-guides/repay-a-loan.md)
 * [Adding Liquidity](user-guides/adding-liquidity.md)
+* [Getting Cora testnet tokens](user-guides/adding-liquidity-1.md)
 * [Removing Liquidity](user-guides/removing-liquidity.md)
 
 ## Developers
