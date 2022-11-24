@@ -1,3 +1,7 @@
+---
+description: Some of the most frequent asked questions
+---
+
 # FAQ
 
 **What if I forget to pay back my loan?**
@@ -36,7 +40,7 @@ You can repay your loan at any point before the expiration date and you will get
 
 As any Decentralized Finance project, the Cora Protocol has inherent risks for the simply fact of being in a decentralized setting.&#x20;
 
-However, we take security very serious and we understand how important are the funds the Cora protocol handle. For that reason, we have audited the contracts with some of the top security firms in the space (see [audits](../security/audits.md) section for more details). In addition to that, we follow the most recommended smart contracts practices and finally we have defined procedures so we can be ready for unexpected situations, these procedures include upgradeability of the protocol and emergency stops mechanisms.
+However, we take security very serious and we understand how important are the funds the Cora protocol handle. For that reason, we have audited the contracts with some of the top security firms in the space (see [audits](security/audits.md) section for more details). In addition to that, we follow the most recommended smart contracts practices and finally we have defined procedures so we can be ready for unexpected situations, these procedures include upgradeability of the protocol and emergency stops mechanisms.
 
 
 

@@ -4,6 +4,7 @@
 * [Features](features.md)
 * [Roadmap](roadmap.md)
 * [Vision](vision.md)
+* [FAQ](faq.md)
 
 ## 📗 Protocol CONCEPTS
 
@@ -46,7 +47,3 @@
 
 * [Risks](security/risks.md)
 * [Audits](security/audits.md)
-
-## RESOURCES
-
-* [FAQ](resources/faq.md)
