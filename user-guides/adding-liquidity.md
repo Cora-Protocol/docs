@@ -1,7 +1,7 @@
 ---
-description: Learn how to get Cora testnet tokens to participate in the Cora testnet
+description: Learn how to add liquidity in the Cora Protocol
 ---
 
-# Getting Cora testnet tokens
+# Adding Liquidity
 
-{% embed url="https://scribehow.com/shared/Claiming_Cora_Testnet_Tokens__dAAjUMgORoidbNOUj6hmow" %}
+{% embed url="https://scribehow.com/shared/Adding_Liquidity__GIMxeixHQM67sEJwid5jug" %}
