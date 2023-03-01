@@ -6,7 +6,7 @@ description: >-
 
 # Roadmap
 
-## November 2022: Testnet launch
+## Q4 2022: Testnet launch
 
 The Cora Protocol will release an initial version in the Goerli and Moonbase alpha network. The goal of this testnet release is to start battle-testing the protocol in a close to Mainnet environment.
 
@@ -19,19 +19,23 @@ The Cora Protocol will release an initial version in the Goerli and Moonbase alp
 * Rounds Duration: **3 days**
 * Liquidity Cap: **No limits**
 
-### December 2022: DAO Formation
+### Q1 2023: Multichain governance audit
+
+The Cora protocol has developed a multichain governance module to allow the community to manage the protocol across multiple chains.
+
+### Q2 2023: DAO Initiation
 
 The Cora Protocol will be a community owned protocol. Together with the community we will define the rules  and guidelines to allow any person to be part of the DAO.
 
-### December 2022: Audit
+### Q2 2023: Protocol Audit
 
-The Cora Protocol will be audited at the end of Q4 of 2022. We will perform audits with Consensys Diligence and Zellic.
+The Cora core protocol will be audited by some of the top security firms: Consensys Diligence and Zellic.
 
 <mark style="background-color:orange;">**Disclaimer: The following dates are subject to the DAO approval and could change.**</mark>
 
-### Q1 2023: Mainnet launch
+### Q2 2023: Mainnet launch
 
-The Cora Protocol is planned to be released to Ethereum Mainnet in January of 2023.
+The Cora Protocol is planned to be released to Arbitrum and Ethereum Mainnet in Q2 of 2023.
 
 **The details of this release include:**
 
@@ -42,16 +46,16 @@ The Cora Protocol is planned to be released to Ethereum Mainnet in January of 20
 * Round Duration: **28 days**
 * Liquidity Cap: Maximum **2 Million USDC**
 
-### **Q2 2023: Multi collateral lending pools**
+### **Q3 2023: Multi collateral lending pools**
 
 We plan to release Lending Pools with multiple collaterals with the goal to increase the capital efficiency of the protocol. Some of the collateral tokens that can potentially become accepted are:
 
 * cbETH
 * stETH
 * RETH
-* ERC-4626s
+* DivETH
 
-### Q2 2023: Cora Vaults
+### Q3 2023: Cora Vaults
 
 We will release a set of products built on top of the Cora Protocol.
 
@@ -59,11 +63,9 @@ We will release a set of products built on top of the Cora Protocol.
 * **Leverage Protected Staking Vault**
 * **Staking Vault**
 
-### Q2 2023: Multi chain deployments
+### Q3 2023: Multi chain deployments
 
 Some of the networks where the Cora Protocol is planning to deploy are:
 
 * Moonbeam
-* NEAR
-* Arbitrum
-* Optimism
+* Aurora (NEAR)
