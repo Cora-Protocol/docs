@@ -62,7 +62,7 @@ MAX_AMOUNT_TO_BORROW = CURRENT_ETH_SPOT_PRICE * 0.80
 
 **For example,**&#x20;
 
-The ETH spot price at borrowing time is $4000, then he can get up to $3600 in stablecoin minus let's say $200 of borrowing fee.
+The ETH spot price at borrowing time is $4000, then he can get up to $3200 in stablecoin minus let's say $200 of borrowing fee.
 
 So we could define:
 
