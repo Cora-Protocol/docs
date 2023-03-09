@@ -10,7 +10,7 @@ To learn more about rounds, let's start with a simple analogy. We can visualise 
 
 Once a Lending pool is created, a predetermined period of time called "round" will start. Since it is the first round we called "Genesis round". This is the time where we load the tank (liquidity).
 
-<figure><img src="../../.gitbook/assets/bus@2x.png" alt=""><figcaption><p>Analogy of a Lending pool</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bus@2x (1).png" alt=""><figcaption><p>Analogy of a Lending pool</p></figcaption></figure>
 
 Once the bus starts its journey, it has to stop in multiple stations and people can leave the bus while others join. One thing to keep in mind is that people in the bus will be able to signal that they want to stop in the next station and people who want to take the bus can signal it too.
 
@@ -26,7 +26,7 @@ The life cycle of a Lending pool is as follows:
 
 Deposits will looks like:
 
-<figure><img src="../../.gitbook/assets/round-deposits@2x.png" alt=""><figcaption><p>Visualisation of the Lending pool deposits</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/round-deposits@2x (1).png" alt=""><figcaption><p>Visualisation of the Lending pool deposits</p></figcaption></figure>
 
 Withdrawals will look like:
 
