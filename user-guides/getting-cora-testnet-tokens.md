@@ -4,6 +4,16 @@ description: Learn how to get Cora testnet tokens to participate in the Cora tes
 
 # Getting Cora testnet tokens
 
+{% embed url="https://scribehow.com/embed/Claiming_Cora_Testnet_Tokens__dAAjUMgORoidbNOUj6hmow" %}
+
+|                                                                                                           |   |   |
+| --------------------------------------------------------------------------------------------------------- | - | - |
+| \{% embed url="https://scribehow.com/embed/Claiming\_Cora\_Testnet\_Tokens\_\_dAAjUMgORoidbNOUj6hmow" %\} |   |   |
+|                                                                                                           |   |   |
+
+\
+
+
 1\) Navigate to [https://app.cora.money](https://app.cora.money)
 
 2\) Click faucet
