@@ -101,9 +101,9 @@ The Cora protocol is an innovative Defi protocol design that allow borrowers to 
 
 For more details about how the Cora protocol protects Liquidity Providers to avoid losing capital, please refer to the [Risk Management](risk-management.md) section.
 
-~~~~
 
-~~~~
+
+
 
 
 

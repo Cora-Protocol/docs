@@ -16,7 +16,7 @@ For example.
 
 Let's say the ETH price at borrowing time was 1000 USDC, and the user takes a loan of 800 USDC minus 35 USDC of borrowing fee, he got effectively:
 
-> 800 **** USDC **** - 35 USDC = 765 USDC&#x20;
+> 800 USDC - 35 USDC = 765 USDC&#x20;
 
 Now, at expiration time the ETH price is 700 USDC.
 
@@ -46,4 +46,3 @@ However, we take security very serious and we understand how important are the f
 
 
 
-****

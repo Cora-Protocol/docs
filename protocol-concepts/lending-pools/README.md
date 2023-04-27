@@ -6,7 +6,7 @@ description: Learn more about Lending Pools in the Cora Protocol
 
 #### Introduction
 
-**Lending pools** in Cora are single asset pools of **stablecoins**, where users or **liquidity providers** deposit any of the supported stablecoin **** tokens in exchange of a Cora LP token that represents the share of the pool.
+**Lending pools** in Cora are single asset pools of **stablecoins**, where users or **liquidity providers** deposit any of the supported stablecoin tokens in exchange of a Cora LP token that represents the share of the pool.
 
 Lending pools serve as a source of liquidity for loans. Borrowers will lock their collateral in exchange for a stablecoin token that will be taken from the lending pool reserves.
 
@@ -18,7 +18,7 @@ Every time a borrower takes a loan, it is required to pay a one time **borrowing
 
 The borrowing fees go to the liquidity providers and are distributed proportionally to the liquidity provider's share of the lending pool.
 
-Lending pools have associated a **** [Price model](../pricing-models.md) **** smart contract that can be changed via governance.&#x20;
+Lending pools have associated a [Price model](../pricing-models.md) smart contract that can be changed via governance.&#x20;
 
 These models are based on Option's pricing models and calculate what is the right amount that a liquidity provider should charge to the borrower for the risk of providing a non liquidatable loan.&#x20;
 
@@ -100,8 +100,7 @@ You can learn more about the life cycle of a Lending pool in [this section.](rou
 
 
 
-****
 
-****
 
-****
+
+

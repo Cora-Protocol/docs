@@ -45,4 +45,3 @@ We expect quantitative finance analysts, financial engineers and any other parti
 
 
 
-****
