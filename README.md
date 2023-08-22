@@ -16,7 +16,7 @@ Liquidity Providers can provide any supported **stablecoin** as liquidity to the
 
 We have created a video explainer to help you learn more about Cora.
 
-{% embed url="https://vimeo.com/746908452" %}
+{% embed url="https://www.youtube.com/watch?v=Ufes6BqqNWE" %}
 
 ### **Why Cora?**
 
