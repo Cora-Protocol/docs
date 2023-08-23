@@ -20,7 +20,11 @@ In Cora v2 loans have flexible loan durations up to 1 year. Although the current
 
 <figure><img src=".gitbook/assets/Screenshot 2023-08-23 at 09.18.03.png" alt="" width="375"><figcaption><p>Improved borrower experience</p></figcaption></figure>
 
-####
+#### Simplified UI&#x20;
+
+Cora V2 introduces a new borrowing experience with a UI style similar to Uniswap. Borrowers simply define the collateral they want to lock, the amount to borrow, the loan duration and you are set !
+
+This new user experience is thanks to our new modular architecture that includes a router engine to help borrowers find the best rates across all the Lending pools in the Cora universe.
 
 
 
