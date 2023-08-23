@@ -6,6 +6,10 @@ description: >-
 
 # Getting Started
 
+{% hint style="info" %}
+Cora V2 is currently under testnet, please check the details of the evolution of Cora in the [Cora V2](cora-v2.md) section.
+{% endhint %}
+
 ### **What is Cora?**
 
 [Cora](https://www.cora.money) is a decentralized lending platform that allow users to borrow stablecoins for a fixed period of time and only pay a one-time borrowing fee **without the risk of being liquidated**.

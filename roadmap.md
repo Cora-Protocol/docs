@@ -10,11 +10,11 @@ description: >-
 
 The Cora protocol has developed a multichain governance module to allow the community to manage the protocol across multiple chains.
 
-### Q2 2023: DAO Initiation
+### Q2 2023: DAO Initiation ✅
 
 The Cora Protocol will be a community owned protocol. Together with the community we will define the rules  and guidelines to allow any person to be part of the DAO.
 
-### Q3 2023: Cora v2 testnet launch
+### Q3 2023: Cora v2 testnet launch ✅
 
 The Cora Protocol will release an initial version of the Cora V2 protocol. The goal of this testnet release is to start battle-testing the protocol in a close to Mainnet environment.
 

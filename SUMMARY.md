@@ -3,6 +3,7 @@
 * [Getting Started](README.md)
 * [Features](features.md)
 * [Roadmap](roadmap.md)
+* [🆕 Cora V2](cora-v2.md)
 * [Vision](vision.md)
 * [FAQ](faq.md)
 
