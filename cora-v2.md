@@ -25,6 +25,8 @@ These new pools are fully customisable. Lenders can create their own lending poo
 * Maximum LTV and loan duration (customised per collateral)
 * What pricing model they want to use to price their loans
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 #### **Flexible loan durations**
 
 The version 2 of Cora maintains the same benefits as Cora v1. Users can borrow stablecoins for a fixed period of time and only pay a one-time borrowing fee **without the risk of being liquidated.**
