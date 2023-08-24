@@ -4,12 +4,6 @@ description: List of smart contracts addresses of the Cora protocol.
 
 # Contract Addresses
 
-| Contract          | Address | Etherscan |
-| ----------------- | ------- | --------- |
-| PoolFactory       |         |           |
-| LiquidityPool     |         |           |
-| PriceFeed         |         |           |
-| SortedLoans       |         |           |
-| OptionPricer      |         |           |
-| Cora (CoraToken)  |         |           |
-| xCora(xCoraToken) |         |           |
+
+
+<table><thead><tr><th width="189">Contract</th><th>Arbiscan</th></tr></thead><tbody><tr><td>Cora Token</td><td><a href="https://arbiscan.io/token/0x41f89104D82BF3Cc560AD0241601d38fF05AC0aD">https://arbiscan.io/token/0x41f89104D82BF3Cc560AD0241601d38fF05AC0aD</a></td></tr><tr><td>Cora Governor</td><td><a href="https://arbiscan.io/address/0xE926F8c54b1401600D6A40aBb598b762f4904b6e">https://arbiscan.io/address/0xE926F8c54b1401600D6A40aBb598b762f4904b6e</a></td></tr><tr><td>Cora Time Lock</td><td><a href="https://arbiscan.io/address/0xCebD5817EeD45e50a2D8341AB4Fe443E4d701d72">https://arbiscan.io/address/0xCebD5817EeD45e50a2D8341AB4Fe443E4d701d72</a></td></tr><tr><td>Message Relayer</td><td><a href="https://arbiscan.io/address/0x9D4e02A6683f549fEf5F4B1a19A86b370759cb10">https://arbiscan.io/address/0x9D4e02A6683f549fEf5F4B1a19A86b370759cb10</a></td></tr><tr><td>Treasury Bootstrapping</td><td><a href="https://arbiscan.io/address/0xcCE17361A9E7632f6f601361f98a5AC143B6ADc3">https://arbiscan.io/address/0xcCE17361A9E7632f6f601361f98a5AC143B6ADc3</a></td></tr><tr><td>DAO Vesting</td><td><a href="https://arbiscan.io/address/0x35325809Bdef8ce06372981bb6d2497a279723b0">https://arbiscan.io/address/0x35325809Bdef8ce06372981bb6d2497a279723b0</a></td></tr><tr><td>Team Vesting</td><td><a href="https://arbiscan.io/address/0xD0c0334b035621905E4AACDebC4F35B004A2AadB">https://arbiscan.io/address/0xD0c0334b035621905E4AACDebC4F35B004A2AadB</a></td></tr><tr><td>Merkle Distributor with Deadline (Airdrop)</td><td><a href="https://arbiscan.io/address/0x50Db5af36F3B907E028FAD8BA1ba5e235F131B62">https://arbiscan.io/address/0x50Db5af36F3B907E028FAD8BA1ba5e235F131B62</a></td></tr><tr><td>Governance Initiation Data</td><td><a href="https://arbiscan.io/address/0x290f70bcF87F4053df44B113aE01aea74bacd353">https://arbiscan.io/address/0x290f70bcF87F4053df44B113aE01aea74bacd353</a></td></tr></tbody></table>
